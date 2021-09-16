@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tarea2</string>
+
+    <string name="Name">Nombre</string>
+    <string name="LastName">Apellido</string>
+
+
+</resources>
