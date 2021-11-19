@@ -1,0 +1,29 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=68:78:C3:A0:95:41:1C:19:8E:F8:39:21:BA:CA:FA:04:94:B7:FA:1F%3Bcom.fsalazar.evaluacion2
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.fsalazar.evaluacion2
+
+    SHA-1 certificate fingerprint:
+    68:78:C3:A0:95:41:1C:19:8E:F8:39:21:BA:CA:FA:04:94:B7:FA:1F
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+</resources>
+
+<ListView
+android:id="@+id/idListaSensores"
+android:layout_width="match_parent"
+android:layout_height="match_parent" />
